@@ -1,8 +1,5 @@
 //Vertical Histogram
 
-//Do not clear or delete this code 
-// Ive created my own logic to display the vertical histogram
-//Read the code carefully and understand it.
 
 #include <stdio.h>
 
