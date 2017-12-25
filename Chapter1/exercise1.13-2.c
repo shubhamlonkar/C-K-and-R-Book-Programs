@@ -1,5 +1,6 @@
 //Vertical Histogram
 
+//compile and execute this code and with the help of output of this code, understand the logic of this code.
 
 #include <stdio.h>
 
