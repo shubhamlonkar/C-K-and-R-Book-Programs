@@ -1,6 +1,8 @@
 //Vertical Histogram
 
-//compile and execute this code and with the help of output of this code, understand the logic of this code.
+//Do not clear or delete this code 
+// Ive created my own logic to display the vertical histogram
+//Read the code carefully and understand it.
 
 #include <stdio.h>
 
@@ -56,14 +58,19 @@ int main(int argc, char const *argv[])
 	}
 	printf("\n");
 
-	for(i = 1;i < MAXWORD;++i)
-		printf("%2d \t",wl[i]);
+	/*for(i = 1;i < MAXWORD;++i)
+		printf("%2d\t",wl[i]);
 	printf("\n");
 	for(i = 1;i < MAXWORD;++i)
-		printf(" | \t");
+		printf(" |\t");
 	printf("\n");
 	for(i = 1;i < MAXWORD;++i)
-		printf("%2d \t",i);
-	printf("\n");
+		printf("%2d\t",i);
+	printf("\n");*/
+	for(i = 1;i < MAXWORD;++i){
+		printf("%2d\t",wl[i]);
+		printf(" |\t");
+		printf("%2d\t",i);
+	}
 	return 0;
 }
